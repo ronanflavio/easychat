@@ -31,7 +31,7 @@ Quando fizer a publicação do package, os arquivos de configuração estarão d
 
 `app\config\packages\ronanflavio\easychat`
 
-É necessário informar qual o nome da tabela, da model e dos campos respectivos à tabela de usuários dentro do arquivo `tables.php`. Veja abaixo o exemplo:
+É necessário informar qual o nome da tabela e da model, além dos principais campos: 'id' e 'name' respectivos à tabela de usuários dentro do arquivo `tables.php`. Veja abaixo o exemplo:
 
 ```
 'users' => array(
@@ -60,8 +60,8 @@ Quando fizer a publicação do package, os arquivos de configuração estarão d
     ),
 ```
 
-É necessário também que exista um campo com o nome do usuário dentro da sua tabela de usuários, como vemos no exemplo acima.
-Caso na sua tabela de usuários existe um campo com o diretório para a imagem de exibição do usuário, você deve atribuir o nome desse campo na chave `photo` do array. Deixando o valor como `null`, o sistema irá utilizar uma imagem padrão.
+É necessário também que exista um campo com o nome do usuário na sua tabela respectiva, como vemos no array acima.
+Caso na sua tabela de usuários exista um campo para a imagem de exibição do usuário, você pode atribuir o este campo na chave `photo` do array. Deixando o valor como `null`, o sistema irá utilizar uma imagem padrão.
 
 Para criar um link que direcione até ao chat, utilize: `URL::to(Config::get('easychat::uri')`. Veja um exemplo:
 

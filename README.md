@@ -6,13 +6,13 @@ Chat baseado em jQuery para Laravel 4 & 5 utilizando armazenamento em banco de d
 
 ## Instalação
 
-Para instalar o Easychat, você deve adicionar a linha abaixo no fim da lista de `providers`, do arquivo `app.php` do seu projeto:
-
-`'Ronanflavio\Easychat\EasychatServiceProvider',`
-
-Em seguida você deve entrar com o seguinte comando via composer:
+Para instalar o Easychat, você deve entrar com o seguinte comando via composer:
 
 `composer require "ronanflavio/easychat"`
+
+Em seguida, você deve adicionar a linha abaixo no fim da lista de `providers`, do arquivo `app.php` do seu projeto:
+
+`'Ronanflavio\Easychat\EasychatServiceProvider',`
 
 É necessário publicar os assets e configurações do package em seu projeto, para isso execute o comando abaixo:
 

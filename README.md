@@ -14,9 +14,12 @@ Em seguida, você deve adicionar a linha abaixo no fim da lista de `providers`, 
 
 `'Ronanflavio\Easychat\EasychatServiceProvider',`
 
-É necessário publicar os assets e configurações do package em seu projeto, para isso execute o comando abaixo:
+É necessário publicar os assets e configurações do package em seu projeto, para isso execute os comandos abaixo:
 
-`php artisan asset:publish`
+```
+php artisan asset:publish
+php artisan config:publish ronanflavio/easychat
+```
 
 Existem tabelas que são necessárias para o funcionamento do chat, elas estão nomeadas com o prefixo `ec_`, com o intuito de diferenciá-las das tabelas do seu projeto. As migrations dessas tabelas estão dentro do package, para executá-las, utilize o comando abaixo:
 

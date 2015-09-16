@@ -60,6 +60,10 @@ Quando fizer a publicação do package, os arquivos de configuração estarão d
 É necessário também que exista um campo com o nome do usuário dentro da sua tabela de usuários, como vemos no exemplo acima.
 Caso na sua tabela de usuários existe um campo com o diretório para a imagem de exibição do usuário, você deve atribuir o nome desse campo na chave `photo` do array. Deixando o valor como `null`, o sistema irá utilizar uma imagem padrão.
 
+Para criar um link que direcione até ao chat, utilize: `URL::to(Config::get('easychat::uri')`. Veja um exemplo:
+
+`<a href="{{ URL::to(Config::get('easychat::uri') }}">Chat</a>`
+
 -------------------------------------
 
 ## Description

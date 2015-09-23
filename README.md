@@ -1,8 +1,8 @@
-# Easychat for Laravel 4 & 5
+# Easychat for Laravel 4.x
 
 ## Descrição
 
-Chat baseado em jQuery para Laravel 4 & 5 utilizando armazenamento em banco de dados MySQL e integração com a tabela de usuários do seu projeto.
+Chat baseado em jQuery para Laravel 4.x utilizando armazenamento em banco de dados MySQL e integração com a tabela de usuários do seu projeto.
 
 ## Instalação
 
@@ -71,4 +71,4 @@ Para criar um link que direcione até ao chat, utilize: `URL::to(Config::get('ea
 
 ## Description
 
-jQuery based chat for Laravel 4 &amp; 5 with database storage and integration with your users table.
+jQuery based chat for Laravel 4.x with database storage and integration with your users table.

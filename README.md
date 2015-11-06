@@ -6,6 +6,13 @@ Chat baseado em jQuery para Laravel 4.x utilizando armazenamento em banco de dad
 
 ## Instalação
 
+## Laravel 5.x
+
+Veja a instalação [clicando aqui] (https://github.com/kikonuy/easychat_l5).
+
+## Laravel 4.x
+
+
 Para instalar o Easychat, você deve entrar com o seguinte comando via composer:
 
 `composer require "ronanflavio/easychat"`
